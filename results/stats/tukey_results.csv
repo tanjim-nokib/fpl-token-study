@@ -1,0 +1,66 @@
+IV,DV,group1,group2,meandiff,p_adj,reject
+strategy,entropy_mean,Chain-of-Thought,Few-Shot,-0.0398,0.0386,True
+strategy,entropy_mean,Chain-of-Thought,Zero-Shot,0.0274,0.0974,False
+strategy,entropy_mean,Few-Shot,Zero-Shot,0.0672,0.0001,True
+strategy,ppl_mean,Chain-of-Thought,Few-Shot,-0.5074,0.077,False
+strategy,ppl_mean,Chain-of-Thought,Zero-Shot,0.4203,0.0716,False
+strategy,ppl_mean,Few-Shot,Zero-Shot,0.9277,0.0002,True
+strategy,t1a_mean,Chain-of-Thought,Few-Shot,0.001,0.8899,False
+strategy,t1a_mean,Chain-of-Thought,Zero-Shot,0.0013,0.7575,False
+strategy,t1a_mean,Few-Shot,Zero-Shot,0.0003,0.9921,False
+strategy,sc_mean,Chain-of-Thought,Few-Shot,0.0176,0.0244,True
+strategy,sc_mean,Chain-of-Thought,Zero-Shot,0.0014,0.9662,False
+strategy,sc_mean,Few-Shot,Zero-Shot,-0.0162,0.042,True
+strategy,ctr_mean,Chain-of-Thought,Few-Shot,-0.0343,0.0,True
+strategy,ctr_mean,Chain-of-Thought,Zero-Shot,-0.0138,0.0008,True
+strategy,ctr_mean,Few-Shot,Zero-Shot,0.0205,0.0,True
+length,entropy_mean,Long,Medium,-0.0209,0.2505,False
+length,entropy_mean,Long,Short,0.0569,0.0013,True
+length,entropy_mean,Medium,Short,0.0779,0.0,True
+length,ppl_mean,Long,Medium,-0.2683,0.3325,False
+length,ppl_mean,Long,Short,0.8697,0.0006,True
+length,ppl_mean,Medium,Short,1.1379,0.0,True
+length,t1a_mean,Long,Medium,0.0007,0.9109,False
+length,t1a_mean,Long,Short,0.0021,0.61,False
+length,t1a_mean,Medium,Short,0.0013,0.8135,False
+length,sc_mean,Long,Medium,0.0081,0.3083,False
+length,sc_mean,Long,Short,0.0042,0.8092,False
+length,sc_mean,Medium,Short,-0.0039,0.8325,False
+length,ctr_mean,Long,Medium,-0.0163,0.0001,True
+length,ctr_mean,Long,Short,-0.0294,0.0,True
+length,ctr_mean,Medium,Short,-0.0131,0.0137,True
+specificity,entropy_mean,Abstract,Concrete,-0.0702,0.0,True
+specificity,entropy_mean,Abstract,Semi-Concrete,-0.0591,0.0047,True
+specificity,entropy_mean,Concrete,Semi-Concrete,0.0111,0.7451,False
+specificity,ppl_mean,Abstract,Concrete,-1.0388,0.0,True
+specificity,ppl_mean,Abstract,Semi-Concrete,-0.8988,0.0025,True
+specificity,ppl_mean,Concrete,Semi-Concrete,0.14,0.7983,False
+specificity,t1a_mean,Abstract,Concrete,-0.0017,0.6765,False
+specificity,t1a_mean,Abstract,Semi-Concrete,-0.0016,0.7995,False
+specificity,t1a_mean,Concrete,Semi-Concrete,0.0001,0.9979,False
+specificity,sc_mean,Abstract,Concrete,0.0017,0.9622,False
+specificity,sc_mean,Abstract,Semi-Concrete,-0.0056,0.7504,False
+specificity,sc_mean,Concrete,Semi-Concrete,-0.0073,0.4844,False
+specificity,ctr_mean,Abstract,Concrete,0.018,0.0002,True
+specificity,ctr_mean,Abstract,Semi-Concrete,0.0312,0.0,True
+specificity,ctr_mean,Concrete,Semi-Concrete,0.0132,0.0083,True
+vocabulary,entropy_mean,Mixed,Natural Language,0.0591,0.0047,True
+vocabulary,entropy_mean,Mixed,Programming-Heavy,-0.0111,0.7451,False
+vocabulary,entropy_mean,Natural Language,Programming-Heavy,-0.0702,0.0,True
+vocabulary,ppl_mean,Mixed,Natural Language,0.8988,0.0025,True
+vocabulary,ppl_mean,Mixed,Programming-Heavy,-0.14,0.7983,False
+vocabulary,ppl_mean,Natural Language,Programming-Heavy,-1.0388,0.0,True
+vocabulary,t1a_mean,Mixed,Natural Language,0.0016,0.7995,False
+vocabulary,t1a_mean,Mixed,Programming-Heavy,-0.0001,0.9979,False
+vocabulary,t1a_mean,Natural Language,Programming-Heavy,-0.0017,0.6765,False
+vocabulary,sc_mean,Mixed,Natural Language,0.0056,0.7504,False
+vocabulary,sc_mean,Mixed,Programming-Heavy,0.0073,0.4844,False
+vocabulary,sc_mean,Natural Language,Programming-Heavy,0.0017,0.9622,False
+vocabulary,ctr_mean,Mixed,Natural Language,-0.0312,0.0,True
+vocabulary,ctr_mean,Mixed,Programming-Heavy,-0.0132,0.0083,True
+vocabulary,ctr_mean,Natural Language,Programming-Heavy,0.018,0.0002,True
+syntax,entropy_mean,Declarative,Imperative,-0.0126,0.3061,False
+syntax,ppl_mean,Declarative,Imperative,-0.1372,0.4376,False
+syntax,t1a_mean,Declarative,Imperative,0.0009,0.5747,False
+syntax,sc_mean,Declarative,Imperative,0.0089,0.0749,False
+syntax,ctr_mean,Declarative,Imperative,-0.02,0.0,True
