@@ -1,0 +1,501 @@
+prompt_id,task_name,strategy,length,specificity,vocabulary,syntax,t1a_mean,t1a_std
+1,has_close_elements,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+2,has_close_elements,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+3,has_close_elements,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.07317073170731707,0.0
+4,has_close_elements,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.04878048780487805,0.0
+5,has_close_elements,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.04878048780487805,0.0
+6,separate_paren_groups,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.06000000000000001,0.013997084244475301
+7,separate_paren_groups,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.02857142857142857,0.0
+8,separate_paren_groups,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.04285714285714286,0.0
+9,separate_paren_groups,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.04285714285714286,0.0
+10,separate_paren_groups,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.03428571428571429,0.006998542122237652
+11,truncate_number,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+12,truncate_number,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+13,truncate_number,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+14,truncate_number,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+15,truncate_number,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+16,below_zero,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+17,below_zero,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+18,below_zero,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+19,below_zero,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+20,below_zero,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+21,mean_absolute_deviation,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+22,mean_absolute_deviation,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+23,mean_absolute_deviation,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.03333333333333333,0.0
+24,mean_absolute_deviation,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+25,mean_absolute_deviation,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+26,intersperse,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+27,intersperse,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+28,intersperse,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+29,intersperse,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+30,intersperse,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+31,parse_nested_parens,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.031746031746031744,0.0
+32,parse_nested_parens,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.02222222222222222,0.007776157913597391
+33,parse_nested_parens,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.047619047619047616,0.0
+34,parse_nested_parens,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.031746031746031744,0.0
+35,parse_nested_parens,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.031746031746031744,0.0
+36,filter_by_substring,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+37,filter_by_substring,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+38,filter_by_substring,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+39,filter_by_substring,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+40,filter_by_substring,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+41,sum_product,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.03571428571428571,0.0
+42,sum_product,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+43,sum_product,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+44,sum_product,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+45,sum_product,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+46,rolling_max,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+47,rolling_max,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.029411764705882353,0.0
+48,rolling_max,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+49,rolling_max,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+50,rolling_max,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+51,make_palindrome,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.05405405405405406,0.0
+52,make_palindrome,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+53,make_palindrome,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.02702702702702703,0.0
+54,make_palindrome,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+55,make_palindrome,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+56,string_xor,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.008333333333333333,0.016666666666666666
+57,string_xor,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+58,string_xor,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+59,string_xor,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+60,string_xor,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+61,longest,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+62,longest,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+63,longest,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+64,longest,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+65,longest,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+66,greatest_common_divisor,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+67,greatest_common_divisor,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+68,greatest_common_divisor,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+69,greatest_common_divisor,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+70,greatest_common_divisor,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+71,all_prefixes,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+72,all_prefixes,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+73,all_prefixes,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+74,all_prefixes,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+75,all_prefixes,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+76,string_sequence,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+77,string_sequence,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+78,string_sequence,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+79,string_sequence,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+80,string_sequence,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+81,count_distinct_characters,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.08333333333333333,0.0
+82,count_distinct_characters,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.08333333333333333,0.0
+83,count_distinct_characters,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.08333333333333333,0.0
+84,count_distinct_characters,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.08333333333333333,0.0
+85,count_distinct_characters,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.08333333333333333,0.0
+86,parse_music,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.058823529411764705,0.0
+87,parse_music,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.029411764705882353,0.0
+88,parse_music,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.029411764705882353,0.0
+89,parse_music,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.029411764705882353,0.0
+90,parse_music,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.029411764705882353,0.0
+91,how_many_times,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+92,how_many_times,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+93,how_many_times,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+94,how_many_times,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+95,how_many_times,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+96,sort_numbers,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+97,sort_numbers,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+98,sort_numbers,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.013513513513513514,0.0
+99,sort_numbers,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.013513513513513514,0.0
+100,sort_numbers,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.013513513513513514,0.0
+101,find_closest_elements,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+102,find_closest_elements,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+103,find_closest_elements,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.017241379310344827,0.0
+104,find_closest_elements,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.027586206896551724,0.008446516354424753
+105,find_closest_elements,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.027586206896551724,0.008446516354424753
+106,rescale_to_unit,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+107,rescale_to_unit,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+108,rescale_to_unit,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+109,rescale_to_unit,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+110,rescale_to_unit,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+111,filter_integers,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+112,filter_integers,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+113,filter_integers,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+114,filter_integers,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+115,filter_integers,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+116,strlen,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+117,strlen,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+118,strlen,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+119,strlen,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+120,strlen,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+121,largest_divisor,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+122,largest_divisor,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.08333333333333333,0.0
+123,largest_divisor,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.08333333333333333,0.0
+124,largest_divisor,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.08333333333333333,0.0
+125,largest_divisor,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.08333333333333333,0.0
+126,factorize,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+127,factorize,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+128,factorize,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.019230769230769232,0.0
+129,factorize,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+130,factorize,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+131,remove_duplicates,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+132,remove_duplicates,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+133,remove_duplicates,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+134,remove_duplicates,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+135,remove_duplicates,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.038461538461538464,0.0
+136,change_base,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+137,change_base,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+138,change_base,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+139,change_base,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+140,change_base,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+141,triangle_area,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+142,triangle_area,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+143,triangle_area,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+144,triangle_area,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+145,triangle_area,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+146,fib4,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.02711864406779661,0.020338983050847456
+147,fib4,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.01694915254237288,0.0
+148,fib4,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.01694915254237288,0.0
+149,fib4,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.01694915254237288,0.0
+150,fib4,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.01694915254237288,0.0
+151,median,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.017543859649122806,0.0
+152,median,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.017543859649122806,0.0
+153,median,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.05263157894736842,0.0
+154,median,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+155,median,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+156,is_palindrome,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+157,is_palindrome,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+158,is_palindrome,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+159,is_palindrome,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+160,is_palindrome,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+161,modp,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+162,modp,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+163,modp,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+164,modp,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+165,modp,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+166,encode_shift,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.024390243902439025,0.0
+167,encode_shift,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.04878048780487805,0.0
+168,encode_shift,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.04878048780487805,0.0
+169,encode_shift,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.024390243902439025,0.0
+170,encode_shift,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.04878048780487805,0.0
+171,decode_shift,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.024390243902439025,0.0
+172,decode_shift,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.04878048780487805,0.0
+173,decode_shift,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.04878048780487805,0.0
+174,decode_shift,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.04878048780487805,0.0
+175,decode_shift,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.04878048780487805,0.0
+176,remove_vowels,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+177,remove_vowels,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+178,remove_vowels,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+179,remove_vowels,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+180,remove_vowels,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+181,below_threshold,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.09090909090909091,0.0
+182,below_threshold,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.09090909090909091,0.0
+183,below_threshold,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+184,below_threshold,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+185,below_threshold,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+186,add,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+187,add,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+188,add,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+189,add,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+190,add,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+191,same_chars,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.09090909090909091,0.0
+192,same_chars,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+193,same_chars,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+194,same_chars,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+195,same_chars,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+196,fib,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+197,fib,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+198,fib,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+199,fib,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+200,fib,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+201,correct_bracketing_1,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+202,correct_bracketing_1,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+203,correct_bracketing_1,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+204,correct_bracketing_1,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+205,correct_bracketing_1,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+206,monotonic,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+207,monotonic,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+208,monotonic,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+209,monotonic,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.05625,0.0125
+210,monotonic,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+211,common,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.08333333333333333,0.0
+212,common,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.08333333333333333,0.0
+213,common,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+214,common,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+215,common,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+216,largest_prime_factor,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.02702702702702703,0.0
+217,largest_prime_factor,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.02702702702702703,0.0
+218,largest_prime_factor,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+219,largest_prime_factor,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+220,largest_prime_factor,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+221,sum_to_n,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+222,sum_to_n,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+223,sum_to_n,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+224,sum_to_n,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+225,sum_to_n,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+226,correct_bracketing_2,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+227,correct_bracketing_2,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+228,correct_bracketing_2,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+229,correct_bracketing_2,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+230,correct_bracketing_2,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+231,derivative,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+232,derivative,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+233,derivative,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+234,derivative,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.043478260869565216,0.0
+235,derivative,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.043478260869565216,0.0
+236,fibfib,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+237,fibfib,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+238,fibfib,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+239,fibfib,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+240,fibfib,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+241,vowels_count,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.05405405405405406,0.0
+242,vowels_count,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+243,vowels_count,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.02702702702702703,0.0
+244,vowels_count,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.02702702702702703,0.0
+245,vowels_count,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+246,circular_shift,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+247,circular_shift,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+248,circular_shift,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+249,circular_shift,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+250,circular_shift,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+251,digitsum,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+252,digitsum,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+253,digitsum,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+254,digitsum,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+255,digitsum,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+256,fruit_distribution,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+257,fruit_distribution,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+258,fruit_distribution,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+259,fruit_distribution,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+260,fruit_distribution,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+261,pluck,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+262,pluck,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+263,pluck,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+264,pluck,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+265,pluck,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+266,search,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+267,search,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+268,search,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+269,search,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+270,search,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+271,strange_sort_list,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+272,strange_sort_list,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+273,strange_sort_list,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+274,strange_sort_list,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+275,strange_sort_list,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+276,triangle_area_2,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+277,triangle_area_2,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+278,triangle_area_2,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+279,triangle_area_2,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+280,triangle_area_2,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+281,will_it_fly,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+282,will_it_fly,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+283,will_it_fly,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+284,will_it_fly,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+285,will_it_fly,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+286,smallest_change,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+287,smallest_change,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+288,smallest_change,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+289,smallest_change,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+290,smallest_change,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+291,total_match,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+292,total_match,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+293,total_match,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+294,total_match,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+295,total_match,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+296,is_multiply_prime,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+297,is_multiply_prime,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+298,is_multiply_prime,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+299,is_multiply_prime,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+300,is_multiply_prime,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+301,is_simple_power,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+302,is_simple_power,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+303,is_simple_power,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+304,is_simple_power,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+305,is_simple_power,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+306,iscube,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+307,iscube,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+308,iscube,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+309,iscube,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+310,iscube,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+311,hex_key,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+312,hex_key,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+313,hex_key,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+314,hex_key,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+315,hex_key,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+316,decimal_to_binary,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+317,decimal_to_binary,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+318,decimal_to_binary,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+319,decimal_to_binary,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+320,decimal_to_binary,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+321,is_happy,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+322,is_happy,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+323,is_happy,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+324,is_happy,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+325,is_happy,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+326,numerical_letter_grade,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+327,numerical_letter_grade,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+328,numerical_letter_grade,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+329,numerical_letter_grade,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+330,numerical_letter_grade,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+331,prime_length,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+332,prime_length,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+333,prime_length,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+334,prime_length,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+335,prime_length,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+336,starts_one_ends,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+337,starts_one_ends,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+338,starts_one_ends,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+339,starts_one_ends,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+340,starts_one_ends,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+341,solve_1,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+342,solve_1,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+343,solve_1,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+344,solve_1,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+345,solve_1,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+346,anti_shuffle,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+347,anti_shuffle,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+348,anti_shuffle,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+349,anti_shuffle,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+350,anti_shuffle,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+351,get_row,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+352,get_row,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+353,get_row,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+354,get_row,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+355,get_row,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+356,sort_array,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+357,sort_array,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+358,sort_array,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+359,sort_array,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+360,sort_array,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+361,encrypt,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+362,encrypt,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+363,encrypt,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+364,encrypt,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+365,encrypt,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+366,next_smallest,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+367,next_smallest,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+368,next_smallest,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+369,next_smallest,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+370,next_smallest,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+371,is_bored,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+372,is_bored,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+373,is_bored,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+374,is_bored,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+375,is_bored,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+376,any_int,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+377,any_int,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+378,any_int,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+379,any_int,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+380,any_int,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+381,encode,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+382,encode,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+383,encode,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+384,encode,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+385,encode,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+386,skjkasdkd,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+387,skjkasdkd,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+388,skjkasdkd,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+389,skjkasdkd,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+390,skjkasdkd,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+391,check_dict_case,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+392,check_dict_case,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+393,check_dict_case,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+394,check_dict_case,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+395,check_dict_case,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+396,count_up_to,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+397,count_up_to,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+398,count_up_to,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+399,count_up_to,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+400,count_up_to,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+401,multiply,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+402,multiply,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+403,multiply,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+404,multiply,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+405,multiply,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+406,count_upper,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+407,count_upper,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+408,count_upper,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+409,count_upper,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+410,count_upper,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+411,closest_integer,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+412,closest_integer,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+413,closest_integer,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+414,closest_integer,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+415,closest_integer,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+416,make_a_pile,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+417,make_a_pile,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+418,make_a_pile,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+419,make_a_pile,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+420,make_a_pile,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+421,words_string,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+422,words_string,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+423,words_string,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+424,words_string,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+425,words_string,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+426,choose_num,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+427,choose_num,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+428,choose_num,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+429,choose_num,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+430,choose_num,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+431,rounded_avg,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+432,rounded_avg,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+433,rounded_avg,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+434,rounded_avg,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+435,rounded_avg,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+436,unique_digits,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+437,unique_digits,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+438,unique_digits,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+439,unique_digits,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+440,unique_digits,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+441,by_length,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+442,by_length,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+443,by_length,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+444,by_length,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+445,by_length,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+446,even_odd_palindrome,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+447,even_odd_palindrome,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+448,even_odd_palindrome,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+449,even_odd_palindrome,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+450,even_odd_palindrome,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+451,solve_2,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+452,solve_2,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+453,solve_2,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+454,solve_2,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+455,solve_2,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+456,add_elements,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+457,add_elements,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+458,add_elements,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+459,add_elements,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+460,add_elements,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+461,get_odd_collatz,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+462,get_odd_collatz,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+463,get_odd_collatz,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+464,get_odd_collatz,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+465,get_odd_collatz,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+466,valid_date,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+467,valid_date,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+468,valid_date,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+469,valid_date,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+470,valid_date,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+471,split_words,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+472,split_words,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+473,split_words,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+474,split_words,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+475,split_words,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+476,is_sorted,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+477,is_sorted,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+478,is_sorted,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+479,is_sorted,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+480,is_sorted,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+481,intersection,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+482,intersection,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+483,intersection,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+484,intersection,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+485,intersection,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+486,prod_signs,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+487,prod_signs,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+488,prod_signs,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+489,prod_signs,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+490,prod_signs,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+491,minPath,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+492,minPath,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+493,minPath,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+494,minPath,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+495,minPath,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0
+496,tri,Zero-Shot,Short,Abstract,Natural Language,Imperative,0.0,0.0
+497,tri,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,0.0,0.0
+498,tri,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,0.0,0.0
+499,tri,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,0.0,0.0
+500,tri,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,0.0,0.0

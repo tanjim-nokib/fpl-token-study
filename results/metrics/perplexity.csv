@@ -1,0 +1,501 @@
+prompt_id,task_name,strategy,length,specificity,vocabulary,syntax,ppl_mean,ppl_std,comp_ratio_mean
+1,has_close_elements,Zero-Shot,Short,Abstract,Natural Language,Imperative,24.183152364950015,0.0398596783876365,0.4487087438970262
+2,has_close_elements,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,22.43241776662671,0.1388802761481143,0.43273945234457634
+3,has_close_elements,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,21.15563826420344,0.0,0.7013574660633484
+4,has_close_elements,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,20.133707719517297,0.09126267406903095,0.46090445649740586
+5,has_close_elements,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,21.255585188304238,0.03513859043493548,0.4110452219112498
+6,separate_paren_groups,Zero-Shot,Short,Abstract,Natural Language,Imperative,16.05655785278766,0.7892334952795287,0.49071439200558603
+7,separate_paren_groups,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,19.757350335869493,0.0,0.38392857142857145
+8,separate_paren_groups,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,14.143697887526807,0.0,0.5148809523809523
+9,separate_paren_groups,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,18.062566594355033,0.9571268397381445,0.4181687942317781
+10,separate_paren_groups,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,18.981311577990645,0.046416205738871515,0.4160392483139126
+11,truncate_number,Zero-Shot,Short,Abstract,Natural Language,Imperative,17.258879993736343,0.0,1.0847457627118644
+12,truncate_number,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.454729673252295,0.20460785563139713,0.35221526046549106
+13,truncate_number,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.61144152360377,0.0,0.9753086419753088
+14,truncate_number,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,20.040672885360898,0.1267816940947171,0.4252790289697027
+15,truncate_number,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,23.369317471119817,0.0729170880124391,0.4856493574104629
+16,below_zero,Zero-Shot,Short,Abstract,Natural Language,Imperative,21.17761542630236,0.0,0.2887383573243014
+17,below_zero,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,19.32436781552347,0.01186714450219597,0.29221070433078633
+18,below_zero,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,16.766388464953135,0.0,0.6116504854368932
+19,below_zero,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,20.520815714149503,0.0,0.5175600739371534
+20,below_zero,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,23.9807828966693,0.25259226436456966,0.45580915266200633
+21,mean_absolute_deviation,Zero-Shot,Short,Abstract,Natural Language,Imperative,22.96905979250927,0.0,0.5102040816326531
+22,mean_absolute_deviation,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,22.740334125756156,0.0,0.37178265014299333
+23,mean_absolute_deviation,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,20.735684461828615,0.0,0.7300613496932515
+24,mean_absolute_deviation,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,20.347682366284353,0.014309614107424633,0.38560657719743685
+25,mean_absolute_deviation,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,21.265689062162913,0.07281515924052968,0.3877068557919622
+26,intersperse,Zero-Shot,Short,Abstract,Natural Language,Imperative,19.197151664648562,0.6111516016787857,0.5434312132320522
+27,intersperse,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.974463299474024,0.365411075232711,0.41652558492847047
+28,intersperse,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,16.819379886273133,0.10047931842045774,0.6185581234908589
+29,intersperse,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.01736708098114,0.3931953968682585,0.4612634591795012
+30,intersperse,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,19.64867511405938,0.03416266937312145,0.482561533116337
+31,parse_nested_parens,Zero-Shot,Short,Abstract,Natural Language,Imperative,21.014595443454745,0.0,0.4865350089766607
+32,parse_nested_parens,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.47415836144033,0.1820338651472643,0.36687282397269727
+33,parse_nested_parens,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,16.60451138352559,0.0,0.4882943143812709
+34,parse_nested_parens,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.622432874864423,0.0,0.38562091503267976
+35,parse_nested_parens,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,19.321240273178176,1.1089984953774394,0.3935347685515146
+36,filter_by_substring,Zero-Shot,Short,Abstract,Natural Language,Imperative,21.208331957788687,0.0,0.4590443686006826
+37,filter_by_substring,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,20.507202036144484,0.44802902002500183,0.38608748844023555
+38,filter_by_substring,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,17.604029131869808,0.0,0.6644736842105263
+39,filter_by_substring,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,18.284283481764156,0.23229316139645997,0.3997146548541898
+40,filter_by_substring,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.510370944612095,0.16816393304989552,0.4152771472294666
+41,sum_product,Zero-Shot,Short,Abstract,Natural Language,Imperative,22.515860210831082,0.0,0.6305220883534136
+42,sum_product,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,23.335982431786576,0.1536302430712813,0.3882196881644526
+43,sum_product,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.44416956231823,0.0,0.6868131868131868
+44,sum_product,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,21.093534691550754,1.5908232627311099,0.47750272719644204
+45,sum_product,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,21.337757579407043,0.05937390455199469,0.43873044389550114
+46,rolling_max,Zero-Shot,Short,Abstract,Natural Language,Imperative,21.68428524757798,0.09613124114875557,0.40703297472775857
+47,rolling_max,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,23.75068515927615,0.0,0.3392116182572614
+48,rolling_max,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,25.87759674480257,0.38243084767080404,0.6585140375368388
+49,rolling_max,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,25.062545752567974,0.8558496987761741,0.4400802840821368
+50,rolling_max,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,25.830985876457778,0.0,0.43869516310461193
+51,make_palindrome,Zero-Shot,Short,Abstract,Natural Language,Imperative,24.446072319215855,0.0,0.6796536796536796
+52,make_palindrome,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,23.504804691771774,0.0,0.45304777594728174
+53,make_palindrome,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,18.879582408316434,0.0,0.8101265822784811
+54,make_palindrome,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,18.926032936126433,0.325797734021707,0.5234333062236616
+55,make_palindrome,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,22.0490427868981,1.1121715249074984,0.45818887393033636
+56,string_xor,Zero-Shot,Short,Abstract,Natural Language,Imperative,22.81009864627612,0.8701575200415684,0.5241573640170676
+57,string_xor,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,24.042488780675892,0.5658481504786347,0.4865379045529766
+58,string_xor,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,22.460579868779607,0.0,0.8907563025210085
+59,string_xor,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,23.17858818726364,0.0,0.5079950799507995
+60,string_xor,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,21.57564475069376,1.0735395487473203,0.43031188735106995
+61,longest,Zero-Shot,Short,Abstract,Natural Language,Imperative,17.97406088630711,0.0,0.8055555555555556
+62,longest,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,16.857823324128926,0.0,0.516320474777448
+63,longest,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.328756287791887,0.0,0.8045112781954888
+64,longest,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,17.621240921213786,0.15199155676466775,0.5270991845097015
+65,longest,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,18.89652696735433,0.05330119317111013,0.42251920122887865
+66,greatest_common_divisor,Zero-Shot,Short,Abstract,Natural Language,Imperative,23.098893488173665,0.0,0.5209580838323353
+67,greatest_common_divisor,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,20.861118920810743,0.07846151205692502,0.45353210958325574
+68,greatest_common_divisor,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.01589228905682,0.0,0.8608695652173914
+69,greatest_common_divisor,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.96007636219594,0.372494592223234,0.44586694221224815
+70,greatest_common_divisor,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,22.203000560738808,0.01605423835061539,0.455510476899389
+71,all_prefixes,Zero-Shot,Short,Abstract,Natural Language,Imperative,24.914418662944534,0.31255426076625376,0.8659555555555556
+72,all_prefixes,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,20.92003001587711,0.06315563645345605,0.4141264861768831
+73,all_prefixes,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.34994200388893,0.0,0.5973154362416108
+74,all_prefixes,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,20.615489695784568,0.14947564731845728,0.45204937411343105
+75,all_prefixes,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,21.138203377175824,0.26052639403408384,0.45018417672288236
+76,string_sequence,Zero-Shot,Short,Abstract,Natural Language,Imperative,22.952554055163752,0.04146390044955978,0.592998258572029
+77,string_sequence,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.205687438545283,0.0,0.4195171026156942
+78,string_sequence,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,23.018664278267266,0.052820676758787495,0.5960013878046665
+79,string_sequence,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,21.534928657158368,0.07704517294071438,0.48252467532467536
+80,string_sequence,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,22.024555132300573,0.02259162826499761,0.502967009561853
+81,count_distinct_characters,Zero-Shot,Short,Abstract,Natural Language,Imperative,22.278627422944254,0.0,0.4625850340136054
+82,count_distinct_characters,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.14842507623111,0.03329492192833295,0.389213416996019
+83,count_distinct_characters,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,18.885330349218382,0.0,0.5028571428571429
+84,count_distinct_characters,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,21.8827349942815,0.0,0.4300225733634312
+85,count_distinct_characters,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,21.647715307737197,0.0,0.4398200224971879
+86,parse_music,Zero-Shot,Short,Abstract,Natural Language,Imperative,19.733377279021987,0.01985459267863945,0.4251214511239418
+87,parse_music,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,18.38455021586186,0.0,0.4094017094017094
+88,parse_music,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,18.552779902602147,0.7836975931801808,0.3989877020107863
+89,parse_music,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.37844047603706,0.1347979836414524,0.4097308796416995
+90,parse_music,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,19.92717293826806,0.17202792955167853,0.4325040828065993
+91,how_many_times,Zero-Shot,Short,Abstract,Natural Language,Imperative,20.218436572036627,0.0,0.4566473988439307
+92,how_many_times,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,19.73185487282098,0.0,0.4279398762157383
+93,how_many_times,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,20.44508826917483,0.1478940485672515,0.4518204524804307
+94,how_many_times,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.999966918430186,0.016503401799886318,0.43195887420483087
+95,how_many_times,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,21.243681083622786,0.0,0.4373881932021467
+96,sort_numbers,Zero-Shot,Short,Abstract,Natural Language,Imperative,23.89854310003441,0.0,0.44510978043912175
+97,sort_numbers,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,22.20976420934214,0.14321914233408395,0.4325504792618034
+98,sort_numbers,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,23.094995763011585,0.0,0.4386317907444668
+99,sort_numbers,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,21.769467294973648,0.0,0.4245014245014246
+100,sort_numbers,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,21.866452071502593,0.1018074361652154,0.4345722125218258
+101,find_closest_elements,Zero-Shot,Short,Abstract,Natural Language,Imperative,22.0003929830878,0.06798487229430492,0.4277065690089265
+102,find_closest_elements,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,19.20874615796877,0.21036639451615094,0.3786247111893498
+103,find_closest_elements,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,22.719076661454046,0.07707955738665219,0.4814572233229647
+104,find_closest_elements,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.905823718299793,0.12538384033781777,0.41193505943755726
+105,find_closest_elements,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.50110411442966,0.2753648345989771,0.4152169901922512
+106,rescale_to_unit,Zero-Shot,Short,Abstract,Natural Language,Imperative,22.57225017751862,0.16120501390282585,0.46563485669037163
+107,rescale_to_unit,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,22.097949692311584,0.3435424614318548,0.42609123236662433
+108,rescale_to_unit,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,25.540227569755103,0.33243559034342696,0.48202922832787687
+109,rescale_to_unit,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,21.03828220535953,0.6059183199418371,0.41320914494162053
+110,rescale_to_unit,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,21.898456735993886,0.02924258722977792,0.413282782889687
+111,filter_integers,Zero-Shot,Short,Abstract,Natural Language,Imperative,24.072112884153473,0.0,0.5717439293598234
+112,filter_integers,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,22.368948481422812,0.040510839048019325,0.4496001246120426
+113,filter_integers,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,23.384460064009296,1.7489306176391652,0.5673665649914892
+114,filter_integers,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,21.290570403284516,0.14791714084510496,0.42524130289655543
+115,filter_integers,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,22.705098487905552,0.0,0.5059523809523809
+116,strlen,Zero-Shot,Short,Abstract,Natural Language,Imperative,21.600261103818486,0.001999123429377494,0.6348869827911744
+117,strlen,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.21196942795992,0.0,0.39285714285714285
+118,strlen,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,16.585606918890026,0.29535590628239133,0.9393744987971131
+119,strlen,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,20.24542657860915,0.06613106544095756,0.4766037556108481
+120,strlen,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,21.344905270418487,0.0,0.49002849002849
+121,largest_divisor,Zero-Shot,Short,Abstract,Natural Language,Imperative,20.96155294595538,0.0,0.48141891891891897
+122,largest_divisor,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,19.449250936478627,0.010675608077367777,0.43549695740365113
+123,largest_divisor,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,20.321664139038667,0.0,0.5358744394618834
+124,largest_divisor,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.754866734913378,0.2876445415036686,0.43414426924412125
+125,largest_divisor,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.827075568953838,0.0,0.4633569739952719
+126,factorize,Zero-Shot,Short,Abstract,Natural Language,Imperative,18.376763881885847,0.0,0.5318725099601593
+127,factorize,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,18.64711643906088,0.031837075870609514,0.4144747428416746
+128,factorize,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,18.545277768357902,0.024462669581264845,0.5277669902912621
+129,factorize,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,18.25326211143541,0.1435651029590665,0.4060325220774653
+130,factorize,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,18.891188548504694,0.1459701092792681,0.424772298627582
+131,remove_duplicates,Zero-Shot,Short,Abstract,Natural Language,Imperative,24.782708993128104,0.2042598186248256,0.5495796746364144
+132,remove_duplicates,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,19.644834845079934,0.13631564629442672,0.4265604518382321
+133,remove_duplicates,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,25.1119256561733,0.0,0.53584229390681
+134,remove_duplicates,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.49744622708565,0.007251713902664392,0.42383061862119603
+135,remove_duplicates,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.218773485245304,0.130379155291687,0.4333353401565322
+136,change_base,Zero-Shot,Short,Abstract,Natural Language,Imperative,26.318973445843643,0.10865791046332021,0.5023061003252193
+137,change_base,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,23.0408069962999,0.0,0.49394221808014904
+138,change_base,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,25.098507181833686,0.1704109075225105,0.4706799933276528
+139,change_base,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,22.189107088261924,0.08424302730383956,0.473381857324632
+140,change_base,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,22.91888039999693,0.0,0.4847926267281106
+141,triangle_area,Zero-Shot,Short,Abstract,Natural Language,Imperative,20.930871726026837,0.0816482817930943,0.48992169739833297
+142,triangle_area,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,19.46146933539207,0.04555585620972522,0.3883459465536747
+143,triangle_area,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,18.817199563360234,1.1706605376397974,0.5276511059305169
+144,triangle_area,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,20.227756783319613,0.0,0.4488888888888889
+145,triangle_area,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.857160765937966,0.0,0.4733656174334141
+146,fib4,Zero-Shot,Short,Abstract,Natural Language,Imperative,18.527429490272826,0.7611906373923946,0.45765564148845883
+147,fib4,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,18.911094237159773,0.30733049988492667,0.4373997877482131
+148,fib4,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,17.293416118422282,0.0,0.4400606980273142
+149,fib4,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,20.968637152017976,0.0,0.4656679151061174
+150,fib4,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,19.87841611379969,0.0,0.44228432563791015
+151,median,Zero-Shot,Short,Abstract,Natural Language,Imperative,21.42226762107542,0.0,0.4315443592552026
+152,median,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.463504750806013,0.19216370128359586,0.3869981167608286
+153,median,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,21.61538670401778,0.0,0.4604966139954853
+154,median,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,22.04084521712225,0.0,0.4151486097794822
+155,median,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,19.68779479111006,0.0,0.3930530164533821
+156,is_palindrome,Zero-Shot,Short,Abstract,Natural Language,Imperative,24.112109930920397,0.00503899175550484,0.5259945965486407
+157,is_palindrome,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.278165706712535,0.09043178712302423,0.46980509843715923
+158,is_palindrome,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,22.601650929918904,0.0,0.6188235294117647
+159,is_palindrome,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,22.51543377983246,1.6167629379833117,0.47787615628966124
+160,is_palindrome,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,23.698403221041698,0.0,0.5343137254901961
+161,modp,Zero-Shot,Short,Abstract,Natural Language,Imperative,20.78755711924824,0.0,0.6217008797653959
+162,modp,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.85045348079666,0.18386787774988958,0.5053624559665572
+163,modp,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.15688554786148,0.0,0.6431718061674009
+164,modp,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.106844386096743,0.5356332791634886,0.4813976781242887
+165,modp,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,22.881971454046013,0.002647730380581947,0.5304944577265812
+166,encode_shift,Zero-Shot,Short,Abstract,Natural Language,Imperative,21.750867788037468,0.0,0.4467496542185339
+167,encode_shift,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,20.80051202524084,1.718204311140314,0.4032363906341058
+168,encode_shift,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,20.66362343272778,0.0,0.4658385093167702
+169,encode_shift,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.347020027809798,0.11672301847738843,0.4146976658756891
+170,encode_shift,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,19.0866764029848,0.02220285732779956,0.3569529309382743
+171,decode_shift,Zero-Shot,Short,Abstract,Natural Language,Imperative,20.666606304631586,0.0,0.4213917525773196
+172,decode_shift,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,18.658672430815624,0.00836332960258659,0.4013975746133179
+173,decode_shift,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,20.211475877177236,0.22067182976147282,0.4435886042759984
+174,decode_shift,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.453813648404854,0.8097226346140062,0.3783362504051489
+175,decode_shift,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,19.148541423858184,0.2317901560106816,0.4174613549560838
+176,remove_vowels,Zero-Shot,Short,Abstract,Natural Language,Imperative,24.8258188564867,0.0,0.5171790235081374
+177,remove_vowels,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,23.402660568613204,0.018247386476514294,0.4435567261730563
+178,remove_vowels,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,24.82888522182365,0.0,0.5671641791044776
+179,remove_vowels,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,21.286341862359883,0.046198308717451654,0.43768490793478343
+180,remove_vowels,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,23.33951660306468,0.0,0.47695390781563124
+181,below_threshold,Zero-Shot,Short,Abstract,Natural Language,Imperative,24.108277188844212,0.0,0.45058626465661644
+182,below_threshold,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.393378394441093,0.2809588065911798,0.3909290234390173
+183,below_threshold,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,20.914608661570604,0.031405309769449725,0.5356995192023721
+184,below_threshold,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,22.58023902947485,0.5806632002716824,0.407271931863806
+185,below_threshold,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,22.417768742265164,0.12074120497665045,0.4184718771048172
+186,add,Zero-Shot,Short,Abstract,Natural Language,Imperative,23.784310656530035,0.0,0.5658536585365853
+187,add,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,22.393263173181015,0.19644407032566705,0.4419958962294343
+188,add,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,18.03132202990473,0.0,0.572463768115942
+189,add,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,23.180118766904243,0.0,0.4951856946354883
+190,add,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,22.226881086908016,0.4240631655988078,0.5169661994453074
+191,same_chars,Zero-Shot,Short,Abstract,Natural Language,Imperative,22.43727121001469,0.0,0.5010526315789474
+192,same_chars,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,19.58356970608692,0.0,0.425800193986421
+193,same_chars,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.271817991646625,0.0,0.5580736543909348
+194,same_chars,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,21.73306444075057,0.08047784355957324,0.4455826125930562
+195,same_chars,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,22.338898301901125,0.2874794485649723,0.45998363623198485
+196,fib,Zero-Shot,Short,Abstract,Natural Language,Imperative,20.334895072200766,0.26943153633281436,0.3470534904805077
+197,fib,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,20.471562849956964,0.0,0.4523809523809524
+198,fib,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,18.484102726380378,0.0,0.5346534653465347
+199,fib,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,20.549798378634165,0.12261546841895417,0.46711601855367946
+200,fib,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.838041731878448,0.0,0.46934225195094753
+201,correct_bracketing_1,Zero-Shot,Short,Abstract,Natural Language,Imperative,23.539503699334837,0.02021226418095523,0.44103083170770613
+202,correct_bracketing_1,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,20.134303159024075,0.0,0.4290569243840272
+203,correct_bracketing_1,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,21.216185537534926,0.0,0.506993006993007
+204,correct_bracketing_1,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,20.497889309193624,0.2799455880815704,0.42245525599245004
+205,correct_bracketing_1,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.22737182694114,0.04743686139795541,0.4372995703037931
+206,monotonic,Zero-Shot,Short,Abstract,Natural Language,Imperative,20.112354036913164,0.268706467200535,0.367620968531537
+207,monotonic,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,18.28537426597071,0.14735992912130164,0.39283132886178956
+208,monotonic,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.493478006308163,0.0,0.4541910331384015
+209,monotonic,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.682889763853545,0.396267596104457,0.3951789826884089
+210,monotonic,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.70451176921716,0.5209651336554074,0.38986627709937594
+211,common,Zero-Shot,Short,Abstract,Natural Language,Imperative,22.28631813939524,0.33136214893519106,0.5155954549397173
+212,common,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.308500465102068,0.0,0.4747368421052632
+213,common,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,17.914555882355227,0.0,0.5223880597014925
+214,common,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,21.386173915348973,0.24501487578193393,0.45411213751778146
+215,common,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,22.35372625476618,0.08465057970263525,0.4934510471515104
+216,largest_prime_factor,Zero-Shot,Short,Abstract,Natural Language,Imperative,19.437509319086853,1.1472375171419023,0.43262977802797
+217,largest_prime_factor,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,18.944319890906932,0.0,0.4114877589453861
+218,largest_prime_factor,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,21.30792959484178,0.34769248501420524,0.43922701394204733
+219,largest_prime_factor,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,18.27806100509094,0.33925978424118775,0.40214972622279477
+220,largest_prime_factor,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.24115764796754,0.27186405858993234,0.4382757394685231
+221,sum_to_n,Zero-Shot,Short,Abstract,Natural Language,Imperative,20.880270250650913,0.0,0.5694164989939637
+222,sum_to_n,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,20.156077930075107,0.13402437937622377,0.4497610229310087
+223,sum_to_n,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,17.744421508432,0.0,0.6175298804780877
+224,sum_to_n,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.402478654727226,0.8840009715645002,0.4278468217522066
+225,sum_to_n,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.81454885249596,0.01319851253179962,0.5123493455696845
+226,correct_bracketing_2,Zero-Shot,Short,Abstract,Natural Language,Imperative,23.87260762369213,0.0,0.4335748792270532
+227,correct_bracketing_2,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,17.979853847892514,0.0,0.40347970173985087
+228,correct_bracketing_2,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,21.459212925512595,0.029717121905041284,0.5008467664687046
+229,correct_bracketing_2,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,17.96335634416813,0.07175392461997537,0.38930203986499995
+230,correct_bracketing_2,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.43923558475196,0.03914150740882718,0.458338906895783
+231,derivative,Zero-Shot,Short,Abstract,Natural Language,Imperative,22.08175711195559,0.5260525660351533,0.39794244970715564
+232,derivative,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.368597884512972,0.3746159239519801,0.3997387579949062
+233,derivative,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,21.024307700028732,0.12383340010985358,0.402820298536933
+234,derivative,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,20.520677485158405,0.809906224291106,0.3843537866337291
+235,derivative,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.987783357925455,0.42528606767272353,0.39853727340237893
+236,fibfib,Zero-Shot,Short,Abstract,Natural Language,Imperative,16.720361451715156,0.02209531783516386,0.3583468598300971
+237,fibfib,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,18.899058165154944,0.3045730056996485,0.4222778516432813
+238,fibfib,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.085469984121445,1.4341142950223782,0.43182643985241087
+239,fibfib,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,20.748150407288932,1.041365637014589,0.4455070368855932
+240,fibfib,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,22.0057768631665,0.5258471768824079,0.4777199772607106
+241,vowels_count,Zero-Shot,Short,Abstract,Natural Language,Imperative,23.960034534755017,0.0,0.5829268292682926
+242,vowels_count,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,17.833902690534142,0.13246204601961759,0.3780454647652518
+243,vowels_count,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,20.023882963783034,0.0,0.6045016077170418
+244,vowels_count,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,18.330478222959844,0.5904190009608047,0.3928725651402024
+245,vowels_count,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,19.001098445046257,0.1662270742899832,0.43937289543898206
+246,circular_shift,Zero-Shot,Short,Abstract,Natural Language,Imperative,21.0192258233161,0.0,0.4742268041237113
+247,circular_shift,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,19.30460304756171,0.20153474318331305,0.41863815495305756
+248,circular_shift,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.747423747251503,0.0,0.44794520547945205
+249,circular_shift,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.35378559524081,0.18274154937174683,0.4105276630732975
+250,circular_shift,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.15623571975805,0.41036640729301094,0.43486681277838707
+251,digitsum,Zero-Shot,Short,Abstract,Natural Language,Imperative,23.862023814335835,0.6127248234733954,0.6195867269984918
+252,digitsum,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.087670876196263,0.9379850543163291,0.42329904542164154
+253,digitsum,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,21.51094272587593,0.2338805211315801,0.5863152937482831
+254,digitsum,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,22.612835846475488,0.0,0.45652173913043476
+255,digitsum,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,21.841338166711743,0.40755599231758305,0.4080582670826205
+256,fruit_distribution,Zero-Shot,Short,Abstract,Natural Language,Imperative,19.402628225943012,0.07629793527367701,0.42327905818882705
+257,fruit_distribution,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,19.8191452416736,0.27265656294532276,0.38744299584299907
+258,fruit_distribution,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,23.321637802139033,0.0,0.4933920704845815
+259,fruit_distribution,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,18.454326508334777,0.16091317305876204,0.41980244152455504
+260,fruit_distribution,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,19.67631034680022,0.1533924366793753,0.4229078884693582
+261,pluck,Zero-Shot,Short,Abstract,Natural Language,Imperative,18.049063468087052,0.0036635893266307564,0.41481980142494235
+262,pluck,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,18.520269700158245,0.03996889996061681,0.4106385378559385
+263,pluck,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.58211954428024,1.0520661318606168,0.5326212329025886
+264,pluck,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,18.737991284770978,0.0,0.42000000000000004
+265,pluck,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,17.24986356444062,0.029633488889215184,0.38802400751950494
+266,search,Zero-Shot,Short,Abstract,Natural Language,Imperative,20.50518574605034,0.11234903078267137,0.44088256159867417
+267,search,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,20.714794133734706,0.6526890717703484,0.4576536820353316
+268,search,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.54813508887356,0.1509977431861799,0.5363225625525816
+269,search,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,21.963041474011618,0.24294724894505607,0.44222427052773244
+270,search,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,19.199801764746567,0.20632635957028497,0.40328166305793217
+271,strange_sort_list,Zero-Shot,Short,Abstract,Natural Language,Imperative,20.330749822457165,0.07953747377764558,0.42583171598852687
+272,strange_sort_list,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,19.740238531168995,0.01813052860500395,0.4299960132099409
+273,strange_sort_list,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,21.344248761806192,0.0,0.47858197932053176
+274,strange_sort_list,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,18.780554038458384,0.5055353511247861,0.38241006790135973
+275,strange_sort_list,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,19.493878897382494,0.09000774956328414,0.4108326869596068
+276,triangle_area_2,Zero-Shot,Short,Abstract,Natural Language,Imperative,21.021671409537216,0.0,0.4048582995951417
+277,triangle_area_2,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.499919708268692,0.0393926558646732,0.3639115799820362
+278,triangle_area_2,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.891903867955737,0.07260875548296612,0.4621305067436702
+279,triangle_area_2,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.162812546944636,0.0,0.3601134215500945
+280,triangle_area_2,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.211352922020968,0.3529118288644318,0.3880768828965332
+281,will_it_fly,Zero-Shot,Short,Abstract,Natural Language,Imperative,21.120181616077655,0.004283164826939362,0.3666969972702457
+282,will_it_fly,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.639384682856882,0.0,0.37434094903339193
+283,will_it_fly,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,24.106537125972856,0.0,0.5158102766798419
+284,will_it_fly,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,23.95412274797307,0.3188808723503943,0.45380432560611633
+285,will_it_fly,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,23.179574708897146,0.15417069917868176,0.4017584880395372
+286,smallest_change,Zero-Shot,Short,Abstract,Natural Language,Imperative,22.54655815249493,0.3329388208467492,0.5033631517122978
+287,smallest_change,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,18.65816061718339,0.0,0.4519670631290028
+288,smallest_change,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,22.679259492904766,0.0,0.5098039215686274
+289,smallest_change,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.787868898411702,0.40257565228201003,0.44432435228862077
+290,smallest_change,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.18604827441301,0.05491472475658712,0.45261897826987685
+291,total_match,Zero-Shot,Short,Abstract,Natural Language,Imperative,21.55828952937297,0.10053323085325744,0.4376764076977905
+292,total_match,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,20.745003341604054,0.0,0.40522875816993464
+293,total_match,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.88068623331269,0.0,0.4244741873804971
+294,total_match,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,21.13727292994659,0.0,0.38127090301003347
+295,total_match,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.32948911330651,0.3066967147547771,0.3781813516062809
+296,is_multiply_prime,Zero-Shot,Short,Abstract,Natural Language,Imperative,18.049185409527226,0.5643543747688955,0.41203853713194105
+297,is_multiply_prime,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,17.643170985126314,0.0,0.3742857142857143
+298,is_multiply_prime,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,18.762598217548746,0.0,0.4166666666666667
+299,is_multiply_prime,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.76367167820991,0.0,0.3619441571871768
+300,is_multiply_prime,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.76204828196555,0.0,0.410337552742616
+301,is_simple_power,Zero-Shot,Short,Abstract,Natural Language,Imperative,20.994995900056963,0.01879874904128221,0.4541125541125541
+302,is_simple_power,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,20.709076179288125,0.09233533437871627,0.4338687335209461
+303,is_simple_power,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,17.877928212070522,0.0,0.5154004106776181
+304,is_simple_power,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,17.190493087407198,0.6519424174925041,0.4219950005136458
+305,is_simple_power,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.118248564924617,0.0,0.45601617795753285
+306,iscube,Zero-Shot,Short,Abstract,Natural Language,Imperative,22.173243884833653,0.0,0.5903307888040712
+307,iscube,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.739921520247506,0.0,0.43075356415478616
+308,iscube,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,20.598735908981006,0.0,0.6266666666666667
+309,iscube,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,20.883974045939073,0.0,0.45520082389289385
+310,iscube,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,21.616290414683377,0.0,0.5049261083743842
+311,hex_key,Zero-Shot,Short,Abstract,Natural Language,Imperative,22.373105104157197,1.2861806986177837,0.42561441280742046
+312,hex_key,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.09703911767532,1.027987893091001,0.39697945639762555
+313,hex_key,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,18.486833419605052,0.028113942029514758,0.44093457943925235
+314,hex_key,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,21.054374288354484,0.059251801757958814,0.3989184354586943
+315,hex_key,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,21.07482479524739,1.171219030926464,0.4161991216747854
+316,decimal_to_binary,Zero-Shot,Short,Abstract,Natural Language,Imperative,23.360674647167137,0.004336520070126557,0.44878734251177244
+317,decimal_to_binary,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,22.14679475793272,0.373433423672581,0.436564344943025
+318,decimal_to_binary,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,22.99678066366873,0.01549188748701376,0.5917005004248891
+319,decimal_to_binary,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.40608690790683,0.022528989780795948,0.41884149053755326
+320,decimal_to_binary,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,22.29286502779911,0.0,0.46582544689800204
+321,is_happy,Zero-Shot,Short,Abstract,Natural Language,Imperative,23.46833558383338,0.2706843035095914,0.5815296769432794
+322,is_happy,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.012045673132654,0.06320316819403046,0.4585822021116138
+323,is_happy,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,20.745452462310062,0.0,0.6363636363636364
+324,is_happy,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,20.40882819560864,0.3702989502689096,0.48425996566851043
+325,is_happy,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,22.213375891464775,0.15896213488780472,0.48585482171252004
+326,numerical_letter_grade,Zero-Shot,Short,Abstract,Natural Language,Imperative,23.093707766111926,0.0,0.4369627507163324
+327,numerical_letter_grade,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,23.356233106627887,0.0,0.4524940617577197
+328,numerical_letter_grade,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,20.12046834159863,1.7753671186775974,0.32786027934350964
+329,numerical_letter_grade,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,23.03253985247471,0.06905675846304848,0.4479929679681409
+330,numerical_letter_grade,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,24.61071798184817,0.20608808215826857,0.45140848662932465
+331,prime_length,Zero-Shot,Short,Abstract,Natural Language,Imperative,20.90310604858352,0.08354781514118603,0.45925911619038146
+332,prime_length,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,19.91520247807817,0.0,0.42061855670103093
+333,prime_length,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,22.438647315473183,0.07117909567253913,0.48720756129515247
+334,prime_length,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,21.034573462335082,0.3001489531193176,0.42305353435802806
+335,prime_length,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.799895494729974,0.2314371673563187,0.42361145031442754
+336,starts_one_ends,Zero-Shot,Short,Abstract,Natural Language,Imperative,21.956099957402806,0.10817223072060245,0.35618749124081084
+337,starts_one_ends,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.449287738047776,0.42392552094145497,0.36003512860431497
+338,starts_one_ends,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,20.545262560412947,0.1299409262600097,0.3589016101163695
+339,starts_one_ends,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,20.818441423273544,0.062123087785213325,0.34638280450358244
+340,starts_one_ends,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,21.789809758984944,0.21767284945150836,0.38521716421826546
+341,solve_1,Zero-Shot,Short,Abstract,Natural Language,Imperative,19.25431313938954,0.035645107653481486,0.38164228803314265
+342,solve_1,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,18.56905041660809,0.14377107346818008,0.38492944714318755
+343,solve_1,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,18.100616272208548,0.0,0.3856749311294766
+344,solve_1,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,18.920677185374497,0.011793285819763797,0.3634889468191327
+345,solve_1,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.17045263972027,0.8553421344604732,0.4299040980412988
+346,anti_shuffle,Zero-Shot,Short,Abstract,Natural Language,Imperative,19.85583523833595,0.018330869116287826,0.4066037022165581
+347,anti_shuffle,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.273325026293953,0.04342255718637567,0.4054919148341008
+348,anti_shuffle,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,21.806088156528098,0.48566123134909095,0.42568041960930075
+349,anti_shuffle,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,21.299518090080934,0.06766686468035488,0.40695485063067655
+350,anti_shuffle,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.30282708815422,0.603348848209886,0.40397107336507165
+351,get_row,Zero-Shot,Short,Abstract,Natural Language,Imperative,22.53737045100705,0.1417105994805084,0.4819680163633208
+352,get_row,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,18.026482734586356,0.119316816133508,0.36758777283426636
+353,get_row,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,21.069117101602366,0.7430845728617501,0.5050912429907375
+354,get_row,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.325055804661037,0.0,0.40301151461470325
+355,get_row,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,18.353378128518994,0.05861117193445227,0.41130269630072236
+356,sort_array,Zero-Shot,Short,Abstract,Natural Language,Imperative,23.035379039963843,0.46652950017380396,0.4596635697961207
+357,sort_array,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,23.038317856456995,0.4687792204524253,0.4955925779562729
+358,sort_array,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.018035442589415,0.2588177808501939,0.48577762498567567
+359,sort_array,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,21.687863471886534,1.1489781948090052,0.48782018954178136
+360,sort_array,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,22.415865945391566,0.017994819643132716,0.4971407627491362
+361,encrypt,Zero-Shot,Short,Abstract,Natural Language,Imperative,18.683687947785067,0.21589794116675298,0.4395479058673376
+362,encrypt,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,18.955625973062535,0.016245293392660187,0.3889916830202785
+363,encrypt,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,18.667803183322132,0.23594792522496555,0.4500916621734229
+364,encrypt,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,18.887267561306363,0.21493738933508527,0.39137990819136065
+365,encrypt,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,19.348338991720546,0.19866287295163165,0.40979826531388747
+366,next_smallest,Zero-Shot,Short,Abstract,Natural Language,Imperative,21.359803527079627,0.1259413037061791,0.4827240645113471
+367,next_smallest,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,22.572833178470294,0.031871718844821824,0.41766973767435667
+368,next_smallest,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.68974994052124,0.03247313445957474,0.5898303798429021
+369,next_smallest,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,21.895638657185575,0.39979272253502945,0.4364378287537919
+370,next_smallest,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,21.433191756253912,0.0,0.42777777777777776
+371,is_bored,Zero-Shot,Short,Abstract,Natural Language,Imperative,20.282872334871577,0.11805752062202401,0.4430133775758208
+372,is_bored,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.503816315841654,0.49290974535755505,0.4513955286357911
+373,is_bored,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,18.494689725921784,0.0,0.4393530997304582
+374,is_bored,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.43082815306799,0.008685066293296018,0.4378921404066861
+375,is_bored,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.55878137879468,0.5499013779597312,0.4454066033330005
+376,any_int,Zero-Shot,Short,Abstract,Natural Language,Imperative,22.712525816878617,0.0,0.48592870544090055
+377,any_int,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,19.515616184101397,0.21476638522652533,0.4189685300671721
+378,any_int,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,18.265007398964613,0.0,0.5047619047619047
+379,any_int,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,20.23670729836881,1.988616819838188,0.45559258791552415
+380,any_int,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,23.504366530102885,0.0,0.5091145833333334
+381,encode,Zero-Shot,Short,Abstract,Natural Language,Imperative,16.60755229936896,0.6204736746686972,0.3492028378302888
+382,encode,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,20.14565947209334,0.04266906554632612,0.4195758939696585
+383,encode,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,15.964471112370806,0.0,0.3301707779886148
+384,encode,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,21.220879687360735,0.17636008123990402,0.45042523389625033
+385,encode,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.055857734290896,0.13585849109322667,0.4415605869714094
+386,skjkasdkd,Zero-Shot,Short,Abstract,Natural Language,Imperative,20.10517929014859,0.004086545790482887,0.4476411726253332
+387,skjkasdkd,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,18.625333538034692,0.23208186353265686,0.4245816645274923
+388,skjkasdkd,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.945999085240338,0.06258616819595773,0.4328194684858976
+389,skjkasdkd,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,17.275781032288492,0.1422379464220172,0.4171983557849116
+390,skjkasdkd,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,18.184185602842174,0.5315381331329541,0.39912171702548505
+391,check_dict_case,Zero-Shot,Short,Abstract,Natural Language,Imperative,25.71980817420414,0.17974935366391115,0.4082651622524082
+392,check_dict_case,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.44731399702017,0.06080199981547727,0.42550541112779455
+393,check_dict_case,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.67836564573454,0.0,0.4177545691906005
+394,check_dict_case,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,21.841751643143702,0.09002903198399821,0.43122385999884993
+395,check_dict_case,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,21.256890876582936,0.2287560237183794,0.419597528433604
+396,count_up_to,Zero-Shot,Short,Abstract,Natural Language,Imperative,18.268325161916948,0.0032790623111125686,0.48793194148498065
+397,count_up_to,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,18.34188683944499,0.25487000422786027,0.43268105594558454
+398,count_up_to,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,18.629118821487477,0.0171898324062127,0.45128539352054353
+399,count_up_to,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,18.685527280920788,0.0,0.4509056244041945
+400,count_up_to,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,18.144038250304842,0.0,0.42920353982300885
+401,multiply,Zero-Shot,Short,Abstract,Natural Language,Imperative,21.708061516700855,0.0,0.5090579710144928
+402,multiply,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.90509614932892,0.12392227201149757,0.4618707039810177
+403,multiply,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,21.222549565563607,0.9693537913987271,0.49683844926311843
+404,multiply,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,23.105489273988702,0.12129240661741961,0.45104320176691226
+405,multiply,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,22.301293050781567,0.0693954835654381,0.4695137407958797
+406,count_upper,Zero-Shot,Short,Abstract,Natural Language,Imperative,21.41292171985146,0.0,0.535483870967742
+407,count_upper,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,20.555073365784917,0.20012671739239615,0.41834824245187974
+408,count_upper,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,20.721188039810983,0.0,0.5935828877005348
+409,count_upper,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.957536697392914,0.5793764683405804,0.4119902686091491
+410,count_upper,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.85646128104837,0.10063697523670612,0.45208679574097294
+411,closest_integer,Zero-Shot,Short,Abstract,Natural Language,Imperative,26.082352767943583,1.2617565171115892,0.4805657468412085
+412,closest_integer,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,19.030743476156715,0.24978245657481368,0.39987194875587007
+413,closest_integer,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.38549560177136,0.0,0.5772151898734177
+414,closest_integer,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,17.490373263000684,0.07897820529580742,0.3951913682511363
+415,closest_integer,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,19.634359643367258,0.0,0.4515837104072398
+416,make_a_pile,Zero-Shot,Short,Abstract,Natural Language,Imperative,20.177808933810137,1.005583364833447,0.4571231151803257
+417,make_a_pile,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,18.833978413110078,0.12267374170638176,0.42867003378878826
+418,make_a_pile,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.890036069102003,0.1483122364807035,0.4503112515046553
+419,make_a_pile,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.11229792778525,0.07807001111732743,0.4124892096930989
+420,make_a_pile,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,19.9760412935715,0.0,0.4888023369036027
+421,words_string,Zero-Shot,Short,Abstract,Natural Language,Imperative,21.53763387299083,0.01264940321357979,0.4584305487611868
+422,words_string,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,22.44267644761326,0.15109153939563594,0.4006718058700761
+423,words_string,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,21.068253898771452,0.0,0.6505576208178439
+424,words_string,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,21.78240457776196,0.20292217031284707,0.4560453485697793
+425,words_string,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,21.603343366971277,0.04812878500101545,0.4588177306899043
+426,choose_num,Zero-Shot,Short,Abstract,Natural Language,Imperative,20.769919427619584,0.10875762270384048,0.4464338460553926
+427,choose_num,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,19.268286994279094,0.8196943017081327,0.4065275183657139
+428,choose_num,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.60838179895089,0.0,0.5021008403361344
+429,choose_num,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,18.90363177912227,0.23065267962897784,0.4151115990705813
+430,choose_num,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,21.355248764058672,0.0,0.46107178968655205
+431,rounded_avg,Zero-Shot,Short,Abstract,Natural Language,Imperative,20.36529040863965,0.0,0.45045045045045046
+432,rounded_avg,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.228946340634803,0.04386343368491696,0.4466069108881928
+433,rounded_avg,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.780780229285146,0.0,0.45380434782608703
+434,rounded_avg,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,20.321188858422335,0.6057790116416146,0.42510406623758074
+435,rounded_avg,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.891583870123064,0.0,0.4632282712511938
+436,unique_digits,Zero-Shot,Short,Abstract,Natural Language,Imperative,21.192984003050842,0.025101793127823242,0.46455696202531643
+437,unique_digits,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,23.87942807443586,0.0,0.44770283479960893
+438,unique_digits,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,18.92448773165926,1.1294525730354392,0.4473210573604554
+439,unique_digits,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,20.530432957764702,3.0413517341930167,0.4501804972945438
+440,unique_digits,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,23.137772813277632,0.2865877407163087,0.4816481221968692
+441,by_length,Zero-Shot,Short,Abstract,Natural Language,Imperative,24.240631125671833,0.28677235782491184,0.49108585014879447
+442,by_length,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,24.439548474174266,0.06004312037769351,0.48771819996225985
+443,by_length,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,24.035657970947646,0.11718224846797666,0.4905237727414663
+444,by_length,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,23.73098003876844,0.5270390733030317,0.47814544753185634
+445,by_length,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,22.59400478190493,0.5182586894510971,0.45831078362823596
+446,even_odd_palindrome,Zero-Shot,Short,Abstract,Natural Language,Imperative,19.907849588428356,0.23028374055367265,0.41967866202509574
+447,even_odd_palindrome,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,19.424343872000456,0.09805437367275117,0.4207429931253305
+448,even_odd_palindrome,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.117887698689053,0.13742533264555024,0.4560320053903816
+449,even_odd_palindrome,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,18.44123239924313,0.035712188898945625,0.4338501036832231
+450,even_odd_palindrome,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.00304786315773,0.5368268484969728,0.4806589465335026
+451,solve_2,Zero-Shot,Short,Abstract,Natural Language,Imperative,21.087647389320686,0.493587110228745,0.4349311752092412
+452,solve_2,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,18.9924946068618,0.6643748391394818,0.4294076464141893
+453,solve_2,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,18.60742270624985,0.0,0.4139150943396227
+454,solve_2,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.113346019470377,1.0114737605221469,0.4278164037607824
+455,solve_2,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,18.4932305107598,0.39468196466785305,0.41238863709472773
+456,add_elements,Zero-Shot,Short,Abstract,Natural Language,Imperative,20.391328425395546,0.06862601680469492,0.45139253774984966
+457,add_elements,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,18.77214127337697,0.0,0.42203548085901027
+458,add_elements,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,20.19261151041735,0.44379084433853805,0.5489213231456669
+459,add_elements,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.628119717789165,0.14646948936575982,0.43307498712287834
+460,add_elements,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.061210638728536,0.8691722070444324,0.42850022031284424
+461,get_odd_collatz,Zero-Shot,Short,Abstract,Natural Language,Imperative,20.005180124627042,0.0,0.4247422680412371
+462,get_odd_collatz,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.86749215173322,0.382811582898786,0.4423899827643127
+463,get_odd_collatz,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,21.416175069283078,0.49121380906310613,0.4429753661504889
+464,get_odd_collatz,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,20.469351812393192,0.11312088194316955,0.4016251309172432
+465,get_odd_collatz,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.99676531137543,1.0469227355952146,0.4501438469368848
+466,valid_date,Zero-Shot,Short,Abstract,Natural Language,Imperative,26.526743563268372,0.0009493415784916693,0.46892813121022314
+467,valid_date,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,22.85072471939809,0.005525282966144117,0.4371196754563894
+468,valid_date,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,25.662719205290234,0.0,0.5466666666666666
+469,valid_date,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,24.11573491486956,0.24392296726098833,0.42981479607327194
+470,valid_date,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,25.234581917451045,0.3354856790440885,0.4482844604329098
+471,split_words,Zero-Shot,Short,Abstract,Natural Language,Imperative,22.8570994374323,0.11149270534831576,0.41821071752951866
+472,split_words,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,19.661872654777994,0.9875138756123916,0.3981049069373942
+473,split_words,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,17.38022366524343,0.1995881765793497,0.38480905527871817
+474,split_words,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,18.106910144907427,0.2831618975491691,0.3594621070442604
+475,split_words,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,18.89228533499994,0.18768319076339013,0.4020597848396396
+476,is_sorted,Zero-Shot,Short,Abstract,Natural Language,Imperative,22.09111710743455,0.5156919445848871,0.42176412007397923
+477,is_sorted,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,18.888400865178728,1.2010545306265061,0.4280370589207266
+478,is_sorted,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,17.55746686416112,0.2728798709121335,0.4391162343890148
+479,is_sorted,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,18.42594375097158,0.3477921820781054,0.37251995895588114
+480,is_sorted,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,18.6113854932485,0.4740256836451804,0.3972835320522743
+481,intersection,Zero-Shot,Short,Abstract,Natural Language,Imperative,20.32865552305292,0.0,0.3787195671776375
+482,intersection,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.887564551567007,0.0,0.4026095060577819
+483,intersection,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,19.721218444015033,0.2922064972565437,0.3721013675225855
+484,intersection,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,21.16398610493817,0.0,0.3568965517241379
+485,intersection,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,21.757846955584046,0.23297903935678546,0.3951607278669142
+486,prod_signs,Zero-Shot,Short,Abstract,Natural Language,Imperative,22.211378669200556,0.0,0.4185430463576159
+487,prod_signs,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,21.668908384439472,0.15864383494065257,0.4158848392635567
+488,prod_signs,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,20.458849706898697,0.14891798764791275,0.3912609238451935
+489,prod_signs,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,20.950765237819247,0.7518926451034572,0.4170224271677795
+490,prod_signs,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,20.70388539182261,0.15411632914751364,0.3875387388297826
+491,minPath,Zero-Shot,Short,Abstract,Natural Language,Imperative,21.919220100765518,1.0603558845715084,0.48664912552236494
+492,minPath,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,22.671029575711586,0.0,0.5005370569280344
+493,minPath,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,20.465986056428434,0.0,0.5077844311377245
+494,minPath,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,23.82916934770694,0.0,0.5132450331125827
+495,minPath,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,23.679890079160657,0.20830790470089047,0.5021206197789494
+496,tri,Zero-Shot,Short,Abstract,Natural Language,Imperative,19.63621141385825,0.07790583824364271,0.4615501948461166
+497,tri,Zero-Shot,Medium,Semi-Concrete,Mixed,Declarative,18.686318279690354,0.0,0.4170124481327801
+498,tri,Few-Shot,Medium,Concrete,Programming-Heavy,Imperative,18.813559198268987,0.0,0.4484760522496371
+499,tri,Chain-of-Thought,Long,Concrete,Programming-Heavy,Imperative,19.3892593909974,0.20288786314937132,0.44171234241865565
+500,tri,Chain-of-Thought,Long,Concrete,Programming-Heavy,Declarative,19.38806761664606,0.03603166047266492,0.44089922191057446
